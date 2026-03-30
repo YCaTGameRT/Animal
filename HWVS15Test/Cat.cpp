@@ -1,8 +1,8 @@
 #include "Cat.h"
 
-Cat::Cat(std::string name, int age, double height, double weight, bool isStriped, bool clawsIsSharp) : Animal(name, age, height, weight) {
+Cat::Cat(std::string name, int age, double height, double weight, bool isStriped, std::string noseColor, bool clawsIsSharp) : Animal(name, age, height, weight) {
 	this->isStriped = isStriped;
-	noseColor = "pink";
+	this->noseColor = noseColor;
 	this->clawsIsSharp = clawsIsSharp;
 }
 
@@ -12,6 +12,7 @@ void Cat::NoseColorChoose() {
 	std::cin >> choose;
 	switch (choose) {
 	case 1:
+		noseColor = "pink";
 		break;
 	case 2:
 		noseColor = "gray";

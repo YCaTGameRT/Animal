@@ -11,10 +11,10 @@ public:
 	void Molting();
 	void BirdSing();
 protected:
-
-private:
 	std::string featherColor, species;
 	bool flying, extinct;
+private:
+	
 };
 
 #endif
