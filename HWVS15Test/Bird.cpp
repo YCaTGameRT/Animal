@@ -11,8 +11,8 @@ void Bird::Fly(double km) {
 	flying ? std::cout << "ѕтица " << name << " пролетела " << km << " км\n" : std::cout << "ѕтица " << name << " прошла " << km << " км, т.к. не умеет летать :c\n";
 }
 void Bird::Molting() {
-
+	std::cout << "ѕтица " << name << " полен€ла\n";
 }
 void Bird::BirdSing() {
-
+	std::cout << "ѕтица " << name << " поЄт\n";
 }
