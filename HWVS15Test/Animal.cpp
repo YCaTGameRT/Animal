@@ -8,13 +8,13 @@ Animal::Animal(std::string name, int age, double height, double weight) {
 }
 
 void Animal::Move(double km) {
-	std::cout << "Животное прошло " << km << "км\n";
+	std::cout << "Животное " << name << " прошло " << km << "км\n";
 }
 void Animal::Eat(double kg) {
-	std::cout << "Животное съело " << kg << "кг\n";
+	std::cout << "Животное " << name << " съело " << kg << "кг\n";
 	weight += kg;
 }
 void Animal::GoOlder(int years) {
-	std::cout << "Животное постарело на " << years << "лет\n";
+	std::cout << "Животное " << name << " постарело на " << years << "лет\n";
 	age += years;
 }
