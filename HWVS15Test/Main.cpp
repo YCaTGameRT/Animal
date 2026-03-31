@@ -29,7 +29,7 @@ int main() {
 	bird.Molting();
 	flyingCat.CatLove();
 	flyingCat.MyTails();
-	flyingCat.Eat(13);
+	flyingCat.Animal::Eat(13);
 
 	system("pause");
 	return 0;
